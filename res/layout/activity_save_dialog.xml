@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5pt" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="파일 이름 :"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        tools:context=".SaveDialog" />
+
+    <EditText
+        android:id="@+id/editFileName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnDlgSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="저장"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnDlgCancle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="취소"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
